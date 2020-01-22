@@ -1,7 +1,7 @@
-function D = datathief(fname)
-% D = datathief(fname)
+function D = datascan(fname)
+% D = datascan(fname)
 % 
-% datathief loads in a bitmap image (e.g. a .jpg or .gif) 
+% datascan loads in a bitmap image (e.g. a .jpg or .gif) 
 % and lets you click on known points on the horizontal (x)
 % and vertical (y) axes to define a coordinate
 % system, and then lets you click on individual data points,
@@ -10,7 +10,6 @@ function D = datathief(fname)
 % the assumption is of course that the x,y grid is not distorted
 % for example by shear or perspective
 %
-% PS don't steal data
 
 a = imread(fname);
 figure
