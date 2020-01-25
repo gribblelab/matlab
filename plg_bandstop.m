@@ -1,6 +1,6 @@
 function newdata = plg_bandstop(data,samprate,cutoff,order)
 
-% newdata = plg_andstop(data,samprate,cutoff,order)
+% newdata = plg_bandstop(data,samprate,cutoff,order)
 %
 % performs a bandstop filtering of the input data
 % using an nth order zero phase lag butterworth filter
